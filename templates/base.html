@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sariq.dev</title>
+</head>
+<body>
+    <header>
+        <a href="{% url 'home' %}">Bosh sahifa</a> <br>
+        <a href="{% url 'about' %}">Sayitimiz haqida </a><br>
+         <a href="{% url 'cantact' %}">Biz bilan boglanish uchun</a><br>
+        <a href="{% url 'blog' %}">blog haqida malumot </a><br>
+
+    </header>
+
+    {%block content%}
+    {%endblock content%}
+
+</body>
+</html>
